@@ -1,5 +1,11 @@
+import AppLayout from '../components/AppLayout';
+
 const profile = () => {
-  return <div>profile 페이지</div>;
+  return (
+    <AppLayout>
+      <div>profile 페이지</div>
+    </AppLayout>
+  );
 };
 
 export default profile;
