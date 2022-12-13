@@ -26,10 +26,17 @@ const AppLayout = ({ children }) => {
         <Menu.Item>
           <SearchInput enterButton />
         </Menu.Item>
+        <Menu.Item>
+          <Link href="/signup">회원가입</Link>
+        </Menu.Item>
       </Menu>
       <Row gutter={8}>
         <Col xs={24} md={6}>
-          {isLoggedIn ? <UserProfile /> : <LoginForm />}
+          {isLoggedIn ? (
+            <UserProfile setIsLoggedIn={setIsLoggedIn} />
+          ) : (
+            <LoginForm setIsLoggedIn={setIsLoggedIn} />
+          )}
         </Col>
         <Col xs={24} md={12}>
           {children}

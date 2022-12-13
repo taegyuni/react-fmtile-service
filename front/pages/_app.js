@@ -8,7 +8,7 @@ const App = ({ Component }) => {
     <>
       <Head>
         <meta charSet="utf-8" />
-        <title>FMtile</title>
+        <title>nodebird-taegyun</title>
       </Head>
       <div>공통메뉴</div>
       <Component />
