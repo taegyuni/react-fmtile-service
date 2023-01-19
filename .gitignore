@@ -137,6 +137,6 @@ typings/
 /front/build/
 react-nodebird.pem
 react-nodebird-aws.pem
-node_modules
+node_modules/
 .env
 .next
