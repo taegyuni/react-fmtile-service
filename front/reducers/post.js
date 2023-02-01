@@ -46,7 +46,7 @@ export const addPost = {
 const dummyPost = {
   id: 2,
   content: "더미데이터입니다.",
-  Users: {
+  User: {
     id: 1,
     nickname: "taegyun",
   },
