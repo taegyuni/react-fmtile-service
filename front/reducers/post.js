@@ -4,32 +4,32 @@ export const initialState = {
       id: 1,
       User: {
         id: 1,
-        nickname: "taegyun",
+        nickname: 'taegyun',
       },
-      content: "첫 번째 게시글 ",
+      content: '첫 번째 게시글 ',
       Images: [
         {
-          src: "/Users/tgkim/Dev/IMG_2810.jpg",
+          src: '/Users/tgkim/Dev/IMG_2810.jpg',
         },
         {
-          src: "/Users/tgkim/Dev/IMG_2818.jpg",
+          src: '/Users/tgkim/Dev/IMG_2818.jpg',
         },
         {
-          src: "/Users/tgkim/Dev/IMG_2886.jpg",
+          src: '/Users/tgkim/Dev/IMG_2886.jpg',
         },
       ],
       Comments: [
         {
           User: {
-            nickname: "nero",
+            nickname: 'nero',
           },
-          content: "요호!",
+          content: '요호!',
         },
         {
           User: {
-            nickname: "hero",
+            nickname: 'hero',
           },
-          content: "으어아ㅓㅏ엉",
+          content: '으어아ㅓㅏ엉',
         },
       ],
     },
@@ -38,17 +38,17 @@ export const initialState = {
   postAdded: false,
 };
 
-const ADD_POST = "ADD_POST";
+const ADD_POST = 'ADD_POST';
 export const addPost = {
   type: ADD_POST,
 };
 
 const dummyPost = {
   id: 2,
-  content: "더미데이터입니다.",
+  content: '더미데이터입니다.',
   User: {
     id: 1,
-    nickname: "taegyun",
+    nickname: 'taegyun',
   },
   Images: [],
   Comments: [],
